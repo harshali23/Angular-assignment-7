@@ -1,6 +1,9 @@
-<app-first-comp></app-first-comp>
-<app-second-comp></app-second-comp>
+<button (click)="Fun()">Click me</button>
+<h1>{{Name}}</h1>
 
-<h2>{{Fun()}}</h2>
+<button (click)="Name2 = Name2.toUpperCase()">Upper</button>
+<h3>{{Name2}}</h3>
+<button (click)="Name3 = Name3.toLowerCase()">Lower</button>
+<h3>{{Name3}}</h3>
 
 <router-outlet></router-outlet>
